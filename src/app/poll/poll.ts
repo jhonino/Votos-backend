@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { PollService } from '../poll';
 import { Polly } from '../poll.models';
+import { CommonModule, NgForOf } from "../../../node_modules/@angular/common/common_module.d";
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-poll',
-  imports: [],
+  imports: [NgForOf, CommonModule, FormsModule],
   templateUrl: './poll.html',
   styleUrl: './poll.css',
 })
