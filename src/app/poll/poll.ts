@@ -16,7 +16,7 @@ export class Poll {
 
   //va obtener todas nuestras encuentas del backend
   loadPolls(){
-      this.pollService.getPoll
+      this.pollService.getPolls
   }
 
 }
