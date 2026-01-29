@@ -3,7 +3,7 @@ export interface OptionVote{
     votes: number;
 }
 
-export interface Poll {
+export interface Polly {
     id: number;
     question: string;
     options: OptionVote[];
